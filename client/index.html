@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Dapp</title>
+</head>
+<body>
+    <h1>** Crypnumbers **</h1>
+    <br/>
+    <span id="wallet">
+    </span>    
+    <br>
+    </br>
+    <h1>Adquirir Numero</h1>
+    <span id="adquirir">
+    </span>
+    <form id="form1">
+        <label>Numero</label>
+        <input id="input" type="text"/>
+        <input type="submit" value="submit"/>
+    </form>
+    <hr>
+    </br>
+    <h1>balance de account </h1>
+    <span id="balance">
+    </span>
+     <hr>
+    </br>
+    <h1>Ownership </h1>
+    <span id="owner"></span>
+
+    <form id="form2">
+        <label>Consultar a que wallet pertenece el nro </label>
+        <input id="input2" type="text"/>
+        <input type="submit" value="submit"/>
+    </form>
+     <hr>
+    </br>
+    <h1>Transferir Ownership </h1>
+    <span id="transfer"></span>
+
+    <form id="form3">
+        <label>Wallet </label>
+        <input id="input3" type="text"/>
+        <label>Numero </label>
+        <input id="input4" type="text"/>
+        <input type="submit" value="submit"/>
+    </form>
+    
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" ></script>
+    <script type="text/javascript" src="node_modules/web3/dist/web3.min.js"></script>
+    <script type = "text/javascript" src="src/utils.js"></script>
+    <script type="text/javascript" src ="src/index.js"></script>
+</body>
+</html>
